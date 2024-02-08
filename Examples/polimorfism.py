@@ -23,3 +23,8 @@ mi_gato = Gato("Whiskers")
 animales = [mi_perro, mi_gato]
 for animal in animales:
     print(f"{animal.get_nombre()} dice {animal.hablar()}")
+
+
+# This notion of having one general concept(human) that can manifest 
+# in different forms (players, managers, referees) is known as polymorphism
+#One shape, many forms
